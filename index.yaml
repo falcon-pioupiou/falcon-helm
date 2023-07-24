@@ -1,6 +1,43 @@
 apiVersion: v1
 entries:
+  cs-k8s-protection-agent:
+  - apiVersion: v2
+    appVersion: 0.43.9
+    created: "2023-07-24T15:19:57.74415986Z"
+    description: A Helm chart for Crowdstrike Kubernetes Protection Agent
+    digest: 083a64954490ba0c8a28ddc87fb790bbe4aa47bc885076dc71a55f4ae9457b9b
+    icon: https://www.crowdstrike.com/wp-content/uploads/2020/08/FalconPremium@2x.svg
+    name: cs-k8s-protection-agent
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/cs-k8s-protection-agent-0.43.9/cs-k8s-protection-agent-0.43.9.tgz
+    version: 0.43.9
   falcon-integration-gateway:
+  - apiVersion: v2
+    appVersion: 3.1.10
+    created: "2023-07-24T15:19:57.923920969Z"
+    description: Falcon Integration Gateway for cloud
+    digest: c38ca4627f98eea84c6796d7f02949f7b7bebf4a77b02c6f38c153f4f2bfaee0
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.15.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Solutions Architecture
+    name: falcon-integration-gateway
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-integration-gateway-0.3.0/falcon-integration-gateway-0.3.0.tgz
+    version: 0.3.0
   - apiVersion: v2
     appVersion: 3.1.0
     created: "2023-03-23T15:11:57.777615359Z"
@@ -51,7 +88,61 @@ entries:
     urls:
     - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-integration-gateway-0.1.3/falcon-integration-gateway-0.1.3.tgz
     version: 0.1.3
+  falcon-kac:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-07-24T15:19:58.078058735Z"
+    description: A Helm chart to deploy CrowdStrike Falcon Kubernetes Admission Controller.
+    digest: cc0d51443e71527a1b7bf4d76e3c5c28b12a73105cc1f816d334d585bfbd640f
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - kubernetes
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.21.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Deployment Engineering
+    name: falcon-kac
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-kac-1.0.0/falcon-kac-1.0.0.tgz
+    version: 1.0.0
   falcon-sensor:
+  - apiVersion: v2
+    appVersion: 1.20.2
+    created: "2023-07-24T15:19:58.221391341Z"
+    description: A Helm chart to deploy CrowdStrike Falcon sensors into Kubernetes
+      clusters.
+    digest: 9484993a3e3fefe1604c29af036e860af398fec88644933fb9184cbece5bd535
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - kubernetes
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.22.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Solutions Architecture
+    name: falcon-sensor
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-sensor-1.20.2/falcon-sensor-1.20.2.tgz
+    version: 1.20.2
   - apiVersion: v2
     appVersion: 1.20.1
     created: "2023-06-22T12:59:10.649389678Z"
@@ -566,4 +657,4 @@ entries:
     urls:
     - https://github.com/CrowdStrike/falcon-helm/releases/download/0.5.0/falcon-sensor-0.5.0.tgz
     version: 0.5.0
-generated: "2023-06-22T12:59:10.649545881Z"
+generated: "2023-07-24T15:19:58.221560142Z"
