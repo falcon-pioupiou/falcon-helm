@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   cs-k8s-protection-agent:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-01-31T16:19:29.033848515Z"
+    description: A Helm chart for Crowdstrike Kubernetes Protection Agent
+    digest: 8d263b02493da1744d768a91c6d9076a5dfc49032f0dc6ff148c2d6da2534dbc
+    icon: https://www.crowdstrike.com/wp-content/uploads/2020/08/FalconPremium@2x.svg
+    name: cs-k8s-protection-agent
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/cs-k8s-protection-agent-1.0.1/cs-k8s-protection-agent-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 0.1474.0
     created: "2023-10-12T15:50:08.976653135Z"
     description: A Helm chart for Crowdstrike Kubernetes Protection Agent
@@ -23,6 +34,17 @@ entries:
     urls:
     - https://github.com/falcon-pioupiou/falcon-helm/releases/download/cs-k8s-protection-agent-0.43.9/cs-k8s-protection-agent-0.43.9.tgz
     version: 0.43.9
+  falcon-image-analyzer:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-31T16:19:29.15307337Z"
+    description: A Helm chart for Kubernetes
+    digest: a4f489bd796cf28c33f191ddbdb7eae598796b0b420d28b2752e1bf0035b00e9
+    name: falcon-image-analyzer
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-image-analyzer-1.0.0/falcon-image-analyzer-1.0.0.tgz
+    version: 1.0.0
   falcon-integration-gateway:
   - apiVersion: v2
     appVersion: 3.1.10
@@ -101,6 +123,32 @@ entries:
     version: 0.1.3
   falcon-kac:
   - apiVersion: v2
+    appVersion: 1.0.6
+    created: "2024-01-31T16:19:29.27430335Z"
+    description: A Helm chart to deploy CrowdStrike Falcon Kubernetes Admission Controller.
+    digest: a89e916baee96af25c392e49eb4d18b444b0e2878ad075f44d4d17c0f1d31202
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - kubernetes
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.21.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Deployment Engineering
+    name: falcon-kac
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-kac-1.0.6/falcon-kac-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
     appVersion: 1.0.5
     created: "2023-10-12T15:50:09.152943624Z"
     description: A Helm chart to deploy CrowdStrike Falcon Kubernetes Admission Controller.
@@ -153,6 +201,33 @@ entries:
     - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-kac-1.0.0/falcon-kac-1.0.0.tgz
     version: 1.0.0
   falcon-sensor:
+  - apiVersion: v2
+    appVersion: 1.25.2
+    created: "2024-01-31T16:19:29.378789955Z"
+    description: A Helm chart to deploy CrowdStrike Falcon sensors into Kubernetes
+      clusters.
+    digest: 2e6eff6940f6349f569d015c5f73e8743027b753939ca537e7bf122ab893d2c6
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - kubernetes
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.22.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Solutions Architecture
+    name: falcon-sensor
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-sensor-1.25.2/falcon-sensor-1.25.2.tgz
+    version: 1.25.2
   - apiVersion: v2
     appVersion: 1.20.4
     created: "2023-10-12T15:50:09.375146013Z"
@@ -721,4 +796,4 @@ entries:
     urls:
     - https://github.com/CrowdStrike/falcon-helm/releases/download/0.5.0/falcon-sensor-0.5.0.tgz
     version: 0.5.0
-generated: "2023-10-12T15:50:09.375304018Z"
+generated: "2024-01-31T16:19:29.378953179Z"
