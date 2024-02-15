@@ -47,6 +47,16 @@ entries:
     version: 0.43.9
   falcon-image-analyzer:
   - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2024-02-15T11:44:51.774680369Z"
+    description: A Helm chart for Falcon Image Analyzer
+    digest: 8e49b531de9f6f40f4ed6bbfb87683a7f027e443b8f5482065285d794ab01502
+    name: falcon-image-analyzer
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-image-analyzer-1.1.2/falcon-image-analyzer-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: 1.1.1
     created: "2024-02-08T11:32:43.971266955Z"
     description: A Helm chart for Falcon Image Analyzer
@@ -232,6 +242,33 @@ entries:
     - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-kac-1.0.0/falcon-kac-1.0.0.tgz
     version: 1.0.0
   falcon-sensor:
+  - apiVersion: v2
+    appVersion: 1.25.3
+    created: "2024-02-15T11:44:51.88169993Z"
+    description: A Helm chart to deploy CrowdStrike Falcon sensors into Kubernetes
+      clusters.
+    digest: cf8d53e4824c3b1b375f91e6cd7a81f57008dc2689c2663ea1d854845fea5704
+    home: https://crowdstrike.com
+    icon: https://raw.githubusercontent.com/CrowdStrike/falcon-helm/main/images/crowdstrike-logo.svg
+    keywords:
+    - CrowdStrike
+    - Falcon
+    - EDR
+    - kubernetes
+    - security
+    - monitoring
+    - alerting
+    kubeVersion: '>1.22.0-0'
+    maintainers:
+    - email: integrations@crowdstrike.com
+      name: CrowdStrike Solutions Architecture
+    name: falcon-sensor
+    sources:
+    - https://github.com/CrowdStrike/falcon-helm
+    type: application
+    urls:
+    - https://github.com/falcon-pioupiou/falcon-helm/releases/download/falcon-sensor-1.25.3/falcon-sensor-1.25.3.tgz
+    version: 1.25.3
   - apiVersion: v2
     appVersion: 1.25.2
     created: "2024-01-31T16:19:29.378789955Z"
@@ -827,4 +864,4 @@ entries:
     urls:
     - https://github.com/CrowdStrike/falcon-helm/releases/download/0.5.0/falcon-sensor-0.5.0.tgz
     version: 0.5.0
-generated: "2024-02-08T11:32:43.971343207Z"
+generated: "2024-02-15T11:44:51.881890824Z"
